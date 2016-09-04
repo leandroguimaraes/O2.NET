@@ -1,0 +1,432 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ACTIONS" xml:space="preserve">
+    <value>Ações</value>
+  </data>
+  <data name="ADD" xml:space="preserve">
+    <value>Adicionar</value>
+  </data>
+  <data name="AND" xml:space="preserve">
+    <value>e</value>
+  </data>
+  <data name="ATTENTION" xml:space="preserve">
+    <value>Atenção</value>
+  </data>
+  <data name="BLOCK_INVALID_SIDE" xml:space="preserve">
+    <value>Valor inválido para LADO do bloco.</value>
+  </data>
+  <data name="CANCEL" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="CANNOT_CREATE_USER_SESSION" xml:space="preserve">
+    <value>Não foi possível salvar a sessão do usuário.</value>
+  </data>
+  <data name="CANNOT_LOAD_REQUESTED_MODULE" xml:space="preserve">
+    <value>Não foi possível carregar o módulo.</value>
+  </data>
+  <data name="CAN_NOT_DELETE_SYSTEM_CONFIG" xml:space="preserve">
+    <value>As configurações de sistema não podem ser excluídas.</value>
+  </data>
+  <data name="CHANGE" xml:space="preserve">
+    <value>Alterar</value>
+  </data>
+  <data name="CHOOSE_DESIRED_OPTION" xml:space="preserve">
+    <value>Escolha a opção desejada</value>
+  </data>
+  <data name="CLOSE" xml:space="preserve">
+    <value>Fechar</value>
+  </data>
+  <data name="COMPLETE_SEARCH" xml:space="preserve">
+    <value>Busca completa</value>
+  </data>
+  <data name="DELETE" xml:space="preserve">
+    <value>Apagar</value>
+  </data>
+  <data name="DELETE_DEPENDENCIES_FIRST" xml:space="preserve">
+    <value>Os registros selecionados possuem as seguintes dependências que precisam ser deletadas antes de concluir esta operação:{REGS}</value>
+  </data>
+  <data name="DELETE_ERROR" xml:space="preserve">
+    <value>Não foi possível deletar o(s) registro(s)!</value>
+  </data>
+  <data name="DELETE_OK" xml:space="preserve">
+    <value>Registro(s) deletado(s) com sucesso!</value>
+  </data>
+  <data name="DEL_REG_CONFIRMATION" xml:space="preserve">
+    <value>Tem certeza que deseja deletar o(s) registro(s) selecionado(s)?</value>
+  </data>
+  <data name="DIFFERENT_PASSWORD_CHANGE_ERROR" xml:space="preserve">
+    <value>A nova senha deve ser digitada duas vezes.</value>
+  </data>
+  <data name="DIFFERENT_PASSWORD_ERROR" xml:space="preserve">
+    <value>As senhas digitadas devem ser iguais.</value>
+  </data>
+  <data name="EDIT" xml:space="preserve">
+    <value>Editar</value>
+  </data>
+  <data name="EMAIL" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="EMAIL_EXIST" xml:space="preserve">
+    <value>Este e-mail já está cadastrado em nossa base de dados.</value>
+  </data>
+  <data name="ERROR" xml:space="preserve">
+    <value>Erro</value>
+  </data>
+  <data name="FILE_NOT_EXIST" xml:space="preserve">
+    <value>Arquivo não existe: {F}</value>
+  </data>
+  <data name="FIRST_PAGE" xml:space="preserve">
+    <value>Primeira</value>
+  </data>
+  <data name="FOLLOW_NOT_NULL" xml:space="preserve">
+    <value>Os seguintes valores não podem ser nulos:{not_nulls}</value>
+  </data>
+  <data name="FORGOT_PASSWORD" xml:space="preserve">
+    <value>Esqueceu a senha?</value>
+  </data>
+  <data name="FROM" xml:space="preserve">
+    <value>De</value>
+  </data>
+  <data name="GOBACK" xml:space="preserve">
+    <value>Voltar</value>
+  </data>
+  <data name="HOME_PAGE" xml:space="preserve">
+    <value>Inicial</value>
+  </data>
+  <data name="INCORRECT_INFORMATION_RECEIVED" xml:space="preserve">
+    <value>Informações incorretas recebidas!</value>
+  </data>
+  <data name="INSERT" xml:space="preserve">
+    <value>Cadastrar</value>
+  </data>
+  <data name="INSERT_ERROR" xml:space="preserve">
+    <value>Não foi possível inserir o registro!</value>
+  </data>
+  <data name="INSERT_NEW" xml:space="preserve">
+    <value>Cadastrar novo</value>
+  </data>
+  <data name="INSERT_NEW_CONFIG_ERROR" xml:space="preserve">
+    <value>Uma nova configuração de sistema não pode ser incluída.</value>
+  </data>
+  <data name="INSERT_OK" xml:space="preserve">
+    <value>Registro inserido com sucesso!</value>
+  </data>
+  <data name="INVALID_DB_TYPE" xml:space="preserve">
+    <value>Tipo de banco de dados inválido: {T}</value>
+  </data>
+  <data name="INVALID_LOGIN_CHARS" xml:space="preserve">
+    <value>O login possui caracteres inválidos.</value>
+  </data>
+  <data name="INVALID_PASSWORD" xml:space="preserve">
+    <value>Senha inválida!</value>
+  </data>
+  <data name="INVALID_USER_GROUP" xml:space="preserve">
+    <value>Grupo de usuário inválido!</value>
+  </data>
+  <data name="LANGUAGE" xml:space="preserve">
+    <value>Linguagem</value>
+  </data>
+  <data name="LAST_PAGE" xml:space="preserve">
+    <value>Última</value>
+  </data>
+  <data name="LIST" xml:space="preserve">
+    <value>Listar</value>
+  </data>
+  <data name="LOADING" xml:space="preserve">
+    <value>Carregando...</value>
+  </data>
+  <data name="LOGIN" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="LOGIN_EXIST" xml:space="preserve">
+    <value>Este login já está cadastrado em nossa base de dados. Por favor, escolha outro.</value>
+  </data>
+  <data name="LOGIN_LENGTH" xml:space="preserve">
+    <value>O login deve possuir entre {MIN} e {MAX} caracteres.</value>
+  </data>
+  <data name="LOGOUT" xml:space="preserve">
+    <value>Sair</value>
+  </data>
+  <data name="MAXIMUM" xml:space="preserve">
+    <value>Máximo</value>
+  </data>
+  <data name="MINIMUM" xml:space="preserve">
+    <value>Mínimo</value>
+  </data>
+  <data name="NEWPASSWORD" xml:space="preserve">
+    <value>Nova senha</value>
+  </data>
+  <data name="NEXT" xml:space="preserve">
+    <value>Próximo</value>
+  </data>
+  <data name="NEXT_PAGE" xml:space="preserve">
+    <value>Próxima</value>
+  </data>
+  <data name="NO" xml:space="preserve">
+    <value>Não</value>
+  </data>
+  <data name="NONE_UPDATED" xml:space="preserve">
+    <value>Nenhuma alteração registrada.</value>
+  </data>
+  <data name="NO_REGS_FOUND" xml:space="preserve">
+    <value>Nenhum registro encontrado.</value>
+  </data>
+  <data name="NO_REGS_SELECTED" xml:space="preserve">
+    <value>Nenhum registro selecionado.</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="OP_NOT_AVAILABLE" xml:space="preserve">
+    <value>Operação não disponível.</value>
+  </data>
+  <data name="OR" xml:space="preserve">
+    <value>ou</value>
+  </data>
+  <data name="PAGE" xml:space="preserve">
+    <value>Página {P}</value>
+  </data>
+  <data name="PASSWORD" xml:space="preserve">
+    <value>Senha</value>
+  </data>
+  <data name="PASSWORD_AGAIN" xml:space="preserve">
+    <value>Repetir senha</value>
+  </data>
+  <data name="PASSWORD_CHANGE" xml:space="preserve">
+    <value>Alterar senha</value>
+  </data>
+  <data name="PASSWORD_CHANGE_OK" xml:space="preserve">
+    <value>Senha alterada com sucesso!</value>
+  </data>
+  <data name="PASSWORD_LENGTH" xml:space="preserve">
+    <value>A senha deve possuir entre {MIN} e {MAX} caracteres.</value>
+  </data>
+  <data name="PASSWORD_RESET" xml:space="preserve">
+    <value>Resetar senha</value>
+  </data>
+  <data name="PRESENT_PAGE" xml:space="preserve">
+    <value>Página atual: {P}</value>
+  </data>
+  <data name="PRESENT_PASSWORD" xml:space="preserve">
+    <value>Senha atual</value>
+  </data>
+  <data name="PRESENT_PASSWORD_ERROR" xml:space="preserve">
+    <value>Senha atual incorreta. Não foi possível efetuar a alteração.</value>
+  </data>
+  <data name="PREVIOUS_PAGE" xml:space="preserve">
+    <value>Anterior</value>
+  </data>
+  <data name="PRINT" xml:space="preserve">
+    <value>Imprimir</value>
+  </data>
+  <data name="PRINTED_AT" xml:space="preserve">
+    <value>Impresso em: </value>
+  </data>
+  <data name="REGISTER_DATE" xml:space="preserve">
+    <value>Data de registro</value>
+  </data>
+  <data name="REQUIRED_FIELDS" xml:space="preserve">
+    <value>Os campos em destaque são obrigatórios.</value>
+  </data>
+  <data name="ROLLBACK_INSERT_ERROR" xml:space="preserve">
+    <value>Não foi possível realizar o ROLLBACK da operação de INSERT.</value>
+  </data>
+  <data name="SEARCH" xml:space="preserve">
+    <value>Buscar</value>
+  </data>
+  <data name="SEEK" xml:space="preserve">
+    <value>Localizar</value>
+  </data>
+  <data name="SELECT" xml:space="preserve">
+    <value>Selecionar</value>
+  </data>
+  <data name="SELECT_ERROR" xml:space="preserve">
+    <value>Registro não encontrado!</value>
+  </data>
+  <data name="SEND" xml:space="preserve">
+    <value>Enviar</value>
+  </data>
+  <data name="SIMPLE_SEARCH" xml:space="preserve">
+    <value>Busca simplificada</value>
+  </data>
+  <data name="SITE" xml:space="preserve">
+    <value>Site</value>
+  </data>
+  <data name="SYSADM" xml:space="preserve">
+    <value>Administrador</value>
+  </data>
+  <data name="SYSTEM_LOGIN_ERROR" xml:space="preserve">
+    <value>Senha e/ou login incorretos!</value>
+  </data>
+  <data name="SYSUSER" xml:space="preserve">
+    <value>Usuário</value>
+  </data>
+  <data name="THEME" xml:space="preserve">
+    <value>Tema</value>
+  </data>
+  <data name="TO" xml:space="preserve">
+    <value>Para</value>
+  </data>
+  <data name="UNEXISTENT_ATTRIBUTE" xml:space="preserve">
+    <value>Atributo inexistente: {A}</value>
+  </data>
+  <data name="UNEXISTENT_BLOCK" xml:space="preserve">
+    <value>Bloco inexistente.</value>
+  </data>
+  <data name="UNEXISTENT_LANGUAGE" xml:space="preserve">
+    <value>Linguagem inexistente.</value>
+  </data>
+  <data name="UNEXISTENT_LOGIN" xml:space="preserve">
+    <value>Login inexistente!</value>
+  </data>
+  <data name="UNEXISTENT_MODULE" xml:space="preserve">
+    <value>Módulo inexistente.</value>
+  </data>
+  <data name="UNEXISTENT_THEME" xml:space="preserve">
+    <value>Tema inexistente.</value>
+  </data>
+  <data name="UNEXISTENT_USER_SUBGROUP" xml:space="preserve">
+    <value>Subgrupo de usuário inexistente.</value>
+  </data>
+  <data name="UPDATE" xml:space="preserve">
+    <value>Atualizar</value>
+  </data>
+  <data name="UPDATE_ERROR" xml:space="preserve">
+    <value>Erro na atualização!</value>
+  </data>
+  <data name="UPDATE_OK" xml:space="preserve">
+    <value>Atualização realizada com sucesso!</value>
+  </data>
+  <data name="USER" xml:space="preserve">
+    <value>Usuário</value>
+  </data>
+  <data name="USERS" xml:space="preserve">
+    <value>Usuários</value>
+  </data>
+  <data name="WHATSTHIS" xml:space="preserve">
+    <value>O que é isso?</value>
+  </data>
+  <data name="YES" xml:space="preserve">
+    <value>Sim</value>
+  </data>
+  <data name="YOURE_NOT_SYSADMIN" xml:space="preserve">
+    <value>Você não é um administrador do sistema.</value>
+  </data>
+</root>

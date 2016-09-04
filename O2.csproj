@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{81B1AD5C-89F1-465C-ABF3-8770B1493B51}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>O2</RootNamespace>
+    <AssemblyName>O2</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <ResGenToolArchitecture>Managed32Bit</ResGenToolArchitecture>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <SignAssembly>false</SignAssembly>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>On</GenerateSerializationAssemblies>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Includes\CultureCode.cs" />
+    <Compile Include="Includes\DataBaseAccess\DBConn.cs" />
+    <Compile Include="Includes\DataBaseAccess\Query.cs" />
+    <Compile Include="Includes\DataBaseAccess\TableMetaData.cs" />
+    <Compile Include="Includes\Exceptions\ClassWithoutTableFieldException.cs" />
+    <Compile Include="Includes\Exceptions\CollectionWithoutFKColumnNameFieldException.cs" />
+    <Compile Include="Includes\Exceptions\NothingUpdatedException.cs" />
+    <Compile Include="Includes\SysModule.cs" />
+    <Compile Include="Includes\SysCollection.cs" />
+    <Compile Include="Includes\SysUsers\Exceptions\DistinctPasswordException.cs" />
+    <Compile Include="Includes\SysUsers\Exceptions\LoginExistException.cs" />
+    <Compile Include="Includes\SysUsers\Exceptions\SysUserGroupExistException.cs" />
+    <Compile Include="Includes\SysUsers\Exceptions\SysUserGroupNotFoundForSysUserException.cs" />
+    <Compile Include="Includes\SysUsers\Exceptions\SysUserPermissionExistException.cs" />
+    <Compile Include="Includes\SysUsers\Exceptions\SysUserProfileNotFoundException.cs" />
+    <Compile Include="Includes\SysUsers\Exceptions\UnexistentSessionException.cs" />
+    <Compile Include="Includes\SysUsers\SysUserGroupCollection.cs" />
+    <Compile Include="Includes\SysUsers\SysUserPermissionCollection.cs" />
+    <Compile Include="Includes\SysUsers\SysUserProfile.cs" />
+    <Compile Include="Includes\SysUsers\SysUserSysUserGroup.cs" />
+    <Compile Include="Utils\BinaryString.cs" />
+    <Compile Include="Utils\Crypto.cs" />
+    <Compile Include="Includes\SysUsers\Session.cs" />
+    <Compile Include="Includes\SysObject.cs" />
+    <Compile Include="Includes\SysUsers\SysUser.cs" />
+    <Compile Include="Includes\SysUsers\SysUserGroup.cs" />
+    <Compile Include="Includes\SysUsers\SysUserPermission.cs" />
+    <Compile Include="Languages\Errors.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Errors.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Languages\Errors.pt-BR.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Errors.pt-BR.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Languages\Language.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Language.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Languages\Language.pt-BR.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Language.pt-BR.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Languages\Regex\Validators.designer.cs">
+      <DependentUpon>Validators.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Languages\Regex\Validators.pt-BR.designer.cs">
+      <DependentUpon>Validators.pt-BR.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Languages\Errors.pt-BR.resx">
+      <SubType>Designer</SubType>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Errors.pt-BR.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Languages\Errors.resx">
+      <SubType>Designer</SubType>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Errors.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Languages\Language.pt-BR.resx">
+      <SubType>Designer</SubType>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Language.pt-BR.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Languages\Language.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Language.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Content Include="Languages\Regex\Validators.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Validators.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Languages\Regex\Validators.pt-BR.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Validators.pt-BR.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

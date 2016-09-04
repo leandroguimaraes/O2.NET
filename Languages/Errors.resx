@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BLOCK_INVALID_SIDE" xml:space="preserve">
+    <value>[00000011] Valor inválido para LADO do bloco.</value>
+  </data>
+  <data name="BLOCK_NAME_ERROR" xml:space="preserve">
+    <value>[00000039] Já existe um bloco cadastrado com o nome '{N}'. Por favor, escolha outro.</value>
+  </data>
+  <data name="BLOCK_SIDE_POSITION_ERROR" xml:space="preserve">
+    <value>[00000038] Já existe um bloco cadastrado para o lado e posição informados.</value>
+  </data>
+  <data name="CANNOT_CREATE_USER_SESSION" xml:space="preserve">
+    <value>[00000012] Não foi possível salvar a sessão do usuário.</value>
+  </data>
+  <data name="CANNOT_LOAD_REQUESTED_MODULE" xml:space="preserve">
+    <value>[00000013] Não foi possível carregar o módulo.</value>
+  </data>
+  <data name="CHANGE_PASSWORD_ERROR_SYSUSER_ID" xml:space="preserve">
+    <value>[00000057] A senha do usuário não pode ser alterada pois sysuser_id = 0.</value>
+  </data>
+  <data name="CLASS_WITHOUT_TABLE_FIELD" xml:space="preserve">
+    <value>[00000061] A classe {C} não possui atributo 'table' definido.</value>
+  </data>
+  <data name="COLLECTION_WITHOUT_FK_COLUMN_NAME_FIELD" xml:space="preserve">
+    <value>[00000068] A collection {C} não possui atributo 'fk_column_name' definido.</value>
+  </data>
+  <data name="CONNECTION_STRING_NOT_FOUND" xml:space="preserve">
+    <value>[00000055] String de conexão não encontrada: {STR}.</value>
+  </data>
+  <data name="CULTURE_NOT_FOUND" xml:space="preserve">
+    <value>[00000056] Cultura não encontrada: {C}.</value>
+  </data>
+  <data name="DELETE_DEPENDENCIES_FIRST" xml:space="preserve">
+    <value>[00000014] Os registros selecionados possuem as seguintes dependências que precisam ser deletadas antes de concluir esta operação:{REGS}</value>
+  </data>
+  <data name="DELETE_ERROR" xml:space="preserve">
+    <value>[00000015] Não foi possível deletar o(s) registro(s)!</value>
+  </data>
+  <data name="DISTINCT_PASSWORD" xml:space="preserve">
+    <value>[00000017] As senhas digitadas devem ser iguais.</value>
+  </data>
+  <data name="DISTINCT_PASSWORD_CHANGE" xml:space="preserve">
+    <value>[00000016] A nova senha deve ser digitada duas vezes.</value>
+  </data>
+  <data name="EMAIL_EXIST" xml:space="preserve">
+    <value>[00000018] Este e-mail já está cadastrado em nossa base de dados.</value>
+  </data>
+  <data name="ERROR" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="ERROR_AT" xml:space="preserve">
+    <value>[00000037] Erro em '{L}': {E}</value>
+  </data>
+  <data name="EXECUTING_OP_ERROR_TRY_AGAIN" xml:space="preserve">
+    <value>[00000051] Erro ao executar a operação. Por favor, tente novamente.</value>
+  </data>
+  <data name="FILE_NOT_EXIST" xml:space="preserve">
+    <value>[00000019] Arquivo não existe: {F}</value>
+  </data>
+  <data name="FOLLOW_NOT_NULL" xml:space="preserve">
+    <value>[00000020] Os seguintes valores não podem ser nulos:{NOT_NULL}</value>
+  </data>
+  <data name="ID_ZERO_IN_CLASS" xml:space="preserve">
+    <value>[00000064] {A} = 0 em {C}.</value>
+  </data>
+  <data name="ID_ZERO_UPDATE_ERROR" xml:space="preserve">
+    <value>[00000062] Erro ao atualizar objeto. id = 0</value>
+  </data>
+  <data name="INSERT_ERROR" xml:space="preserve">
+    <value>[00000021] Não foi possível inserir o registro!</value>
+  </data>
+  <data name="INSERT_NEW_CONFIG_ERROR" xml:space="preserve">
+    <value>[00000022] Uma nova configuração de sistema não pode ser incluída.</value>
+  </data>
+  <data name="INVALID_DB_TYPE" xml:space="preserve">
+    <value>[00000023] Tipo de banco de dados inválido: {T}</value>
+  </data>
+  <data name="INVALID_FIELD_VALUE" xml:space="preserve">
+    <value>[00000040] Valor de atributo inválido: {C.F}</value>
+  </data>
+  <data name="INVALID_LOGIN_CHARS" xml:space="preserve">
+    <value>[00000024] O login possui caracteres inválidos.</value>
+  </data>
+  <data name="INVALID_PASSWORD" xml:space="preserve">
+    <value>[00000025] Senha inválida!</value>
+  </data>
+  <data name="INVALID_PROVIDER_NAME_AT" xml:space="preserve">
+    <value>[00000047] providerName = '{PN}' inválido em {AT}.</value>
+  </data>
+  <data name="INVALID_USER_GROUP" xml:space="preserve">
+    <value>[00000026] Grupo de usuário inválido: {G}</value>
+  </data>
+  <data name="LOGIN_EXIST" xml:space="preserve">
+    <value>[00000027] O login '{L}' já está cadastrado em nossa base de dados. Por favor, escolha outro.</value>
+  </data>
+  <data name="LOGIN_LENGTH" xml:space="preserve">
+    <value>[00000028] O login deve possuir entre {MIN} e {MAX} caracteres.</value>
+  </data>
+  <data name="NONE_SYSUSERPROFILE_FOR_SYSUSERGROUP" xml:space="preserve">
+    <value>[00000066] Nenhum profile associado ao grupo {G}.</value>
+  </data>
+  <data name="NONE_UPDATED" xml:space="preserve">
+    <value>[00000031] Nenhuma alteração registrada.</value>
+  </data>
+  <data name="NO_CLASS_PRIVATE_FIELD" xml:space="preserve">
+    <value>[00000053] Não existe um campo {CF} PRIVATE. Operação {OP} cancelada.</value>
+  </data>
+  <data name="NO_REGS_FOUND" xml:space="preserve">
+    <value>[00000029] Nenhum registro encontrado.</value>
+  </data>
+  <data name="NO_REGS_SELECTED" xml:space="preserve">
+    <value>[00000030] Nenhum registro selecionado.</value>
+  </data>
+  <data name="OP_NOT_AVAILABLE" xml:space="preserve">
+    <value>[00000032] Operação não disponível.</value>
+  </data>
+  <data name="PASSWORD_LENGTH_ERROR" xml:space="preserve">
+    <value>[00000033] A senha deve possuir entre {MIN} e {MAX} caracteres.</value>
+  </data>
+  <data name="PRESENT_PASSWORD_ERROR" xml:space="preserve">
+    <value>[00000034] Senha atual incorreta. Não foi possível efetuar a alteração.</value>
+  </data>
+  <data name="ROLLBACK_INSERT_ERROR" xml:space="preserve">
+    <value>[00000035] Não foi possível realizar o ROLLBACK da operação de INSERT.</value>
+  </data>
+  <data name="SELECT_ERROR" xml:space="preserve">
+    <value>[00000036] Registro não encontrado!</value>
+  </data>
+  <data name="SESSION_INSERT_ERROR" xml:space="preserve">
+    <value>[00000049] Erro ao criar nova sessão.</value>
+  </data>
+  <data name="SESSION_UNEXISTENT" xml:space="preserve">
+    <value>[00000050] Sessão inexistente.</value>
+  </data>
+  <data name="SESSION_UPDATE_ERROR" xml:space="preserve">
+    <value>[00000048] Erro ao atualizar a sessão.</value>
+  </data>
+  <data name="STRING_FIELD_BIGGER_THAN_DB_COLUMN" xml:space="preserve">
+    <value>[00000069] O atributo {ATT} possui tamanho {ATT_SZ} porém o banco de dados permite o máximo de {DB_SZ}.</value>
+  </data>
+  <data name="SYSTEM_LOGIN_ERROR" xml:space="preserve">
+    <value>[00000001] Senha e/ou login incorretos!</value>
+  </data>
+  <data name="SYSUSERGROUP_ALREADY_EXISTS" xml:space="preserve">
+    <value>[00000058] O grupo {G} já está vinculado ao usuário.</value>
+  </data>
+  <data name="SYSUSERGROUP_ALREADY_EXISTS_IN_DB" xml:space="preserve">
+    <value>[00000063] O gupo {G} já está cadastrado no sistema.</value>
+  </data>
+  <data name="SYSUSERGROUP_NOT_FOUND_FOR_USER" xml:space="preserve">
+    <value>[00000065] O grupo {G} não está vinculado ao usuário.</value>
+  </data>
+  <data name="SYSUSERPERMISSION_ALREADY_EXISTS" xml:space="preserve">
+    <value>[00000059] A permissão de chave {K} já está vinculada ao usuário.</value>
+  </data>
+  <data name="SYSUSERPERMISSION_NOT_FOUND" xml:space="preserve">
+    <value>[00000060] Permissão de chave {K} não encontrada.</value>
+  </data>
+  <data name="SYSUSERPROFILE_NOT_FOUND" xml:space="preserve">
+    <value>[00000067] Profile {P} não encontrado para o sysuser_id = {ID}.</value>
+  </data>
+  <data name="SYSUSER_PERMISSIONS_COLLECTION_DISTINCT_SYSUSER_ID" xml:space="preserve">
+    <value>[00000043] 'sysuser_id' difere dos demais em 'SysUserPermissionsCollection' e não pôde ser incluído.</value>
+  </data>
+  <data name="SYSUSER_PERMISSIONS_COLLECTION_MODULE_ID_NULL" xml:space="preserve">
+    <value>[00000042] 'module_id' não definido em 'SysUserPermissionsCollection'</value>
+  </data>
+  <data name="SYSUSER_PERMISSIONS_COLLECTION_SYSUSER_ID_NULL" xml:space="preserve">
+    <value>[00000041] 'sysuser_id' não definido em 'SysUserPermissionsCollection'</value>
+  </data>
+  <data name="SYSUSER_PERMISSIONS_FK_MODULE_ID" xml:space="preserve">
+    <value>[00000044] A referência para o módulo de id = {ID} em 'SysUserPermission' não existe.</value>
+  </data>
+  <data name="SYSUSER_PERMISSIONS_FK_SYSUSER_ID" xml:space="preserve">
+    <value>[00000045] A referência para o usuário de id = {ID} em 'SysUserPermission' não existe.</value>
+  </data>
+  <data name="SYSUSER_PERMISSIONS_UK" xml:space="preserve">
+    <value>[00000046] Erro de chave única em 'SysUserPermission': sysuser_id = {UID}, module_id = {MID}, key = {K}.</value>
+  </data>
+  <data name="UNEXISTENT_ATTRIBUTE" xml:space="preserve">
+    <value>[00000002] Atributo inexistente: {A}</value>
+  </data>
+  <data name="UNEXISTENT_BLOCK" xml:space="preserve">
+    <value>[00000003] Bloco inexistente.</value>
+  </data>
+  <data name="UNEXISTENT_LANGUAGE" xml:space="preserve">
+    <value>[00000004] Linguagem inexistente.</value>
+  </data>
+  <data name="UNEXISTENT_LOGIN" xml:space="preserve">
+    <value>[00000005] Login inexistente!</value>
+  </data>
+  <data name="UNEXISTENT_MODULE" xml:space="preserve">
+    <value>[00000006] Módulo inexistente.</value>
+  </data>
+  <data name="UNEXISTENT_TABLE" xml:space="preserve">
+    <value>[00000052] Tabela inexistente: {T}</value>
+  </data>
+  <data name="UNEXISTENT_THEME" xml:space="preserve">
+    <value>[00000007] Tema inexistente.</value>
+  </data>
+  <data name="UNEXISTENT_USER_SUBGROUP" xml:space="preserve">
+    <value>[00000008] Subgrupo de usuário inexistente.</value>
+  </data>
+  <data name="UPDATE_ERROR" xml:space="preserve">
+    <value>[00000009] Erro na atualização!</value>
+  </data>
+  <data name="UPDATE_ERROR_ID_ZERO" xml:space="preserve">
+    <value>[00000054] Erro na atualização. ID = 0.</value>
+  </data>
+  <data name="YOURE_NOT_SYSADMIN" xml:space="preserve">
+    <value>[00000010] Você não é um administrador do sistema.</value>
+  </data>
+</root>
