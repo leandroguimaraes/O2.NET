@@ -163,4 +163,4 @@ query.AddParameter("@id", 1);
 query.ExecuteNonQuery("DELETE FROM " + client.get_table() + " WHERE id = @id");
 ```
 
-Enjoy! :)
+Enjoy it! :)
