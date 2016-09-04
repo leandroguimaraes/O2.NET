@@ -4,7 +4,7 @@
 
 O2 stands for "Object Oriented", and started as a PHP project aiming to make it easier to save, recover, update and delete data from databases.
 
-O2.NET version supports SQL Server, MySQL, Firebird and PostgreSQL, and is a working in progress.
+O2.NET version supports SQL Server, MySQL, Firebird and PostgreSQL, and is a working in progress. And O2 have a [PHP version](https://github.com/leandroguimaraes/O2.PHP) too, with a very similar syntax.
 
 ## How to
 
